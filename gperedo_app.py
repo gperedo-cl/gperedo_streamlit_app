@@ -13,13 +13,12 @@ import pandas as pd
 #     return df
 
 
-mpg_df = pd.read_csv('Data/mpg.csv')
+mpg_df = pd.read_csv('./Data/mpg.csv')
 #mpg_df_raw = load_data("./data/mpg.csv")
 #mpg_df = deepcopy
-mpg_df.head()
-#st.title("Streamlit App")
+st.title("Streamlit App")
 
 #st.dataframe(mpg_df)
-#st.table(data = mpg_df)
+st.table(data = mpg_df)
 
 
