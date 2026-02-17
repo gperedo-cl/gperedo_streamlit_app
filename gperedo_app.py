@@ -13,7 +13,7 @@ import pandas as pd
 #     return df
 
 
-mpg_df = pd.read_csv("Data/mpg.csv")
+mpg_df = pd.read_csv("./Data/mpg.csv")
 #mpg_df_raw = load_data("./data/mpg.csv")
 #mpg_df = deepcopy
 
