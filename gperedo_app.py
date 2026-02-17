@@ -7,7 +7,15 @@ import pandas as pd
 
 #st.write("Helooooo")
 
-mpg_df = pd.read_csv("./data/mpg.csv")
+# @st.cache_data
+# def load_data(path):
+#     df = pd.read_csv(path)
+#     return df
+
+
+mpg_df = pd.read_csv("Data/mpg.csv")
+#mpg_df_raw = load_data("./data/mpg.csv")
+#mpg_df = deepcopy
 
 st.title("Streamlit App")
 
