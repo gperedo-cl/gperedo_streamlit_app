@@ -19,6 +19,7 @@ mpg_df = pd.read_csv("./Data/mpg.csv")
 
 st.title("Streamlit App")
 
-st.table(data = mpg_df)
+st.dataframe(mpg_df)
+#st.table(data = mpg_df)
 
 
